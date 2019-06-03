@@ -1,0 +1,23 @@
+#first-img {
+  height: 400px;
+  width: 100%;
+  background-image: url('a1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#second-img {
+  height: 400px;
+  width: 100%;
+  background-image: url('a2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#third-img {
+  height: 400px;
+  width: 100%;
+  background-image: url('a3.jpg');
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,147 @@
+body {
+    height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    display: flex;
+    font-family: inherit;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 5rem rgb(247, 86, 239);
+    border-radius: 50%;
+}
+
+form {
+    display: block;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+img {
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.row {
+    text-align: left;
+}
+
+/* Sao chang thay tac dung gi */
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+/* What */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+input {
+    margin-bottom: -1px;
+    border-radius: 4px;
+    overflow: visible;
+    font-family: inherit;
+}
+
+input:hover {
+    border-color: gold;
+}
+
+#inputPassword {
+    margin-bottom: 1rem;
+}
+
+/* tai sao phai . nhieu trong khi do input label k can . van nhan css - postion & box-sizing la gi? - height khi nao thi auto va auto trong truong hop nay nghia la gi?*/
+.form-signin .container .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* transition cua .form-control la gi? */
+@media .form-control {
+    transition: none;
+}
+
+/* width: 100% nghia gi & width: 100vh nghia gi?
+LÀM SAO ĐỂ ẨN CHỮ KHI ĐIỀN MẬT KHẨU */
+.form-control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: crimson;
+    background-color: lightblue;
+    background-clip: padding-box;
+    border: 1px solid darkgreen;
+    border-radius: 0.25rem;
+}
+
+/* khong tac dung gi */
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-signin .check-box {
+    font-weight: 400;
+}
+
+.check-box {
+    margin-bottom: 1rem;
+}
+
+input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    border-radius: .3rem;
+    color: cornsilk;
+    background-color: cornflowerblue;
+    border-color: chartreuse;
+}
+
+/* what that mean? */
+@media (prefers-reduced-motion: reduce) button {
+    transition: none;
+}
+
+p {
+    color: #6c757d;
+}

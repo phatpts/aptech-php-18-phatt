@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout-Form</title>
+    <link href="Checkout-Form.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="1.jpg" width="150px" height="100px">
+            <h2>
+                Checkout form
+            </h2>
+            <p>
+                Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+                validation state that can be triggered by attempting to submit the form without completing it.
+            </p>
+        </div>
+        <div>
+            <div class="col-8">
+                <h4>
+                    Billing address
+                </h4>
+                <form>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="FirstName">First name</label>
+                            <input type="text" class="form-control" id="FirstName">
+                            <!-- ????
+                            <input type="text" class="form-control" id="FirstName" placeholder value required> -->
+                            <!-- <div class="invalid-feedback">Valid first name is required.</div>
+                            ????? -->
+                        </div>
+                        <div class="col-6">
+                            <label for="LastName">Last name</label>
+                            <input type="text" class="form-control" id="LastName">
+                            <!-- ????
+                                <input type="text" class="form-control" id="FirstName" placeholder value required> -->
+                            <!-- <div class="invalid-feedback">Valid first name is required.</div>
+                                ????? -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="username">Username</label>
+                        <div class="col">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required>
+                            <!-- <div class="invalid-feedback" style="width: 100%;" Your username is required.></div> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="email">Email<span class="text-muted"> (Optional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="your@example.com">
+                        <!-- <div class="invalid-feedback">
+                            "Please enter a valid email address for shipping updates."
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <label for="adress">Adress</label>
+                        <input type="text" class="form-control" id="address" placeholder="Hoang Dieu" required>
+                        <!-- <div class="invalid-feedback">
+                            Please enter your shipping address.
+
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <label for="adress">Adress2
+                            <span class="text-muted">(Optional)</span>
+                        </label>
+                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                </form>
+
+            </div>
+            <div class="col-4">4
+                <h4>Your cart</h4>
+                <form>
+                    <div></div>
+                </form>
+
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+
+</body>
+
+</html>

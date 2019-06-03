@@ -1,0 +1,11 @@
+.Container {
+    &__Row {
+        background-color: aqua;
+
+        &__Div {
+            &--height-100-px {
+                height: 100px;
+            }
+        }
+    }
+}

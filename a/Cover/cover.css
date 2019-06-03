@@ -1,0 +1,102 @@
+/* có đường gạch sau footer
+dấu chấm "by @PT . không liền sau chứ @PT*/
+
+header {
+    margin-bottom: 120px;
+}
+
+body {
+    background-color: #333;
+    height: 100%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin: 0;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0.5);
+}
+
+.text-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
+h3 {
+    float: left;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    color: yellow;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 5rem;
+
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.nav-link {
+    padding-left: 1rem;
+}
+
+.active {
+    background-color: aliceblue;
+    color: black
+}
+
+a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.xem-them {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid #008CBA;
+}
+
+button:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+footer a {
+    padding-right: 0;
+    padding-left: 0.2rem;
+}

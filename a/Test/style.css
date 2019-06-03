@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0.5);
+    color: black;
+    font-weight: 400;
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
+.inner {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    width: 50%;
+}
+
+h1 {
+    margin-top: 35px;
+}
+
+.nav {
+    text-align: right;
+    width: 50%;
+    margin-top: 40px;
+}
+
+a {
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 4px;
+
+}
+
+a:hover {
+    background-color: pink;
+    color: whitesmoke;
+}
+
+.active {}
+
+.nav-link {
+    padding-left: 1rem;
+}
+
+/* slide anh */
+.mySlides {
+    /* display: none; */
+}
+
+/* bat dau chinh giao dien thoai */
+@media only screen and (max-width: 768px) {
+
+    .nav,
+    h1 {
+        display: none;
+    }
+
+
+}
+
+#b1 {
+    margin: 0;
+    padding: 0;
+    width: 33px;
+    height: 33px;
+}
+
+#nav-ip {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#nav-ip div {
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+
+
+
+
+/* ket thuc chinh giao dien dt */
+
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: 0;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 12px 12px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.btn {
+    color: #17cc3e;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 12px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: auto;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Xong slide anh */
+
+.heading {
+    display: flex;
+    text-align: center;
+}
+
+
+.anh {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* xong heading */
+
+/* Bat dau bai viet */
+.baiviet {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.noidungbaiviet {
+    display: flex;
+    align-items: center;
+}
+
+.f-right {
+    text-align: right;
+}
+
+.text-muted {
+    color: #717171;
+}
+
+/* xong bai viet */
+
+.to-top {
+    float: right;
+
+}
+
+.xxx {
+    padding: 1rem;
+
+}
+
+.xxx:hover {
+    background-color: palegreen;
+    color: blue;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 5rem;
+    color: #5a5a5a;
+}
